@@ -17,7 +17,7 @@ docker-compose up -d
 コンテナに入って権限変更、composer install, アプリケーションキー生成、シンボリックリンク、migrateを実行して完了。
 ```bash
 docker-compose exec app bash
-cd src
+cd laravel
 chmod -R 777 storage bootstrap/cache
 composer install
 php artisan key:generate
