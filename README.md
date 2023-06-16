@@ -4,7 +4,7 @@ docker環境でLaravelインストールセットアップ
 ## ローカル環境構築
 .env.exampleをコピーして.envを作成。
 ```bash
-cp src/.env.example src/.env
+cp laravel/.env.example laravel/.env
 ```
 
 ### イメージをビルドしてコンテナを起動。
